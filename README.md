@@ -24,4 +24,4 @@ After that open the `.xcworkspace` file.
 
 ## API Reference
 
-- Use [Imagga API](https://docs.imagga.com/#introduction) to request movies
+- Use [Imagga API](https://docs.imagga.com/#introduction) to request photo analyzing.
