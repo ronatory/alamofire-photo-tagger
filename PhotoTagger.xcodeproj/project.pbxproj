@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2448EC20DA3C1D5276B5B2DD /* Pods_PhotoTagger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E47EC03CE9A78EB51F62B51 /* Pods_PhotoTagger.framework */; };
 		47043AB81DAF973100B28CEA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 47043AB71DAF973100B28CEA /* README.md */; };
+		478473051DB3DC5900CE5C28 /* ImaggaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478473041DB3DC5900CE5C28 /* ImaggaRouter.swift */; };
 		932ED1F71BF9390D0072C1C4 /* PhotoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1F61BF9390D0072C1C4 /* PhotoColor.swift */; };
 		932ED1F91BF944590072C1C4 /* TagsColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1F81BF944590072C1C4 /* TagsColorsViewController.swift */; };
 		932ED1FB1BF9459E0072C1C4 /* TagsColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932ED1FA1BF9459E0072C1C4 /* TagsColorsTableViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		1E47EC03CE9A78EB51F62B51 /* Pods_PhotoTagger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoTagger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47043AB71DAF973100B28CEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		478473041DB3DC5900CE5C28 /* ImaggaRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaggaRouter.swift; sourceTree = "<group>"; };
 		932ED1F61BF9390D0072C1C4 /* PhotoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoColor.swift; sourceTree = "<group>"; };
 		932ED1F81BF944590072C1C4 /* TagsColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsViewController.swift; sourceTree = "<group>"; };
 		932ED1FA1BF9459E0072C1C4 /* TagsColorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsColorsTableViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				932ED1FA1BF9459E0072C1C4 /* TagsColorsTableViewController.swift */,
 				932ED1F81BF944590072C1C4 /* TagsColorsViewController.swift */,
 				93EF0CA51BF41DA20051B5B1 /* ViewController.swift */,
+				478473041DB3DC5900CE5C28 /* ImaggaRouter.swift */,
 			);
 			path = PhotoTagger;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				TargetAttributes = {
 					93EF0C9F1BF41DA20051B5B1 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W37SS4V7GD;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -229,6 +233,7 @@
 				932ED1F71BF9390D0072C1C4 /* PhotoColor.swift in Sources */,
 				932ED1F91BF944590072C1C4 /* TagsColorsViewController.swift in Sources */,
 				932ED1FB1BF9459E0072C1C4 /* TagsColorsTableViewController.swift in Sources */,
+				478473051DB3DC5900CE5C28 /* ImaggaRouter.swift in Sources */,
 				93EF0CA61BF41DA20051B5B1 /* ViewController.swift in Sources */,
 				93EF0CA41BF41DA20051B5B1 /* AppDelegate.swift in Sources */,
 			);
@@ -345,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W37SS4V7GD;
 				INFOPLIST_FILE = PhotoTagger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.PhotoTagger;
@@ -359,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = W37SS4V7GD;
 				INFOPLIST_FILE = PhotoTagger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.PhotoTagger;
