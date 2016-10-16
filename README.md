@@ -12,6 +12,8 @@ The user can upload a photo via the simulator/camera to Imagga and as result get
 
 ## Installation
 
+- Use Xcode 8.0
+- Use Swift 3.0
 - Use [CocoaPods](https://cocoapods.org/) as dependency manager
 
 To install, download it or clone and then start `pod install` in the project directory.
